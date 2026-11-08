@@ -1,14 +1,14 @@
 # Hands-on Monero
 
 A hands-on lab to see how Monero really works, on Linux, in an afternoon.
+
 You install the official wallets, get free test coins from a faucet, send
 them between two wallets, and then take the transactions apart: subaddresses,
 one-time addresses, rings and decoys, key images, payment proofs, restoring
 from a seed, and signing a transaction on an offline ("cold") wallet.
 
-Then a second track turns the same wallets into an incident: what Monero
-activity leaves behind on a host — on disk, in memory, on the wire — and how a
-responder would find and read it (DFIR).
+Then a second track turns the same wallets into somethin alike to an incident scenario:  what Monero
+activity leaves behind on a host — on disk, in memory, on the wire — and how an Incident Responder would find and read it.
 
 Everything runs on **stagenet**, Monero's public test network: same rules
 and same software as the real network (mainnet), but the coins are free and
@@ -55,7 +55,7 @@ scripts/lab-run.sh help           # everything else
 
 Two tracks. Do **Part 1** in order — each exercise uses what the previous ones
 built. **Part 2** is a DFIR track that turns those same wallets into an
-incident; do it after Part 1.
+incident.
 
 ### Part 1 — Monero fundamentals
 
